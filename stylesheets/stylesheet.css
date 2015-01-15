@@ -53,7 +53,6 @@ body {
   color:#373737;
   background: #212121;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -62,7 +61,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
 
@@ -72,9 +70,8 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 10px;
+  padding: 10px 0;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
@@ -369,6 +366,79 @@ Full-Width Styles
 }
 
 
+/*******
+ * Custom Styling
+ *******/
+.cg-body {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.label {
+    background-color: #999999;
+    display: inline;
+    padding: .25em .6em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.profile-heading {
+    color: #36373E;
+    font-weight: 400;
+    line-height: 1.6;
+    word-wrap: break-word;
+    font-size: 15px;
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+}
+
+.web-presence {
+    float: right;
+    position: relative;
+}
+
+.web-presence > li {
+    list-style: none;
+    border: 1px solid #DEE0E5;
+    border-bottom: none;
+}
+
+.web-presence > li:hover {
+    background: #DEE0E5;
+}
+
+.web-presence > li:last-child{
+    border-bottom: 1px solid #DEE0E5;
+}
+
+.web-presence a,
+.web-presence a:hover,
+.web-presence a:link,
+.web-presence a:visited {
+    color: #28292e;
+    padding: 11px;
+    display: block;
+    text-decoration: none;
+}
+
+.web-presence li:first-child {
+    padding: 0;
+}
+
+.web-presence img {
+    margin: 0;
+    padding: 0;
+}
+
+.web-presence a:first-child:hover {
+    background-color: transparent;
+}
 
 /*******************************************************************************
 Small Device Styles
